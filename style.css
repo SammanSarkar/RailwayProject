@@ -26,7 +26,7 @@ body {
   margin: 30px auto;
   background: #595055;
   overflow: hidden;
-  z-index: -5;
+  /* z-index: -5; */
   box-shadow: 0 0 25px #2b2628;
 /*   transform: scale(1.5); */
 }
@@ -36,8 +36,21 @@ body {
   height: 100px;
   margin: 40px 0 80px 80px;
   border-radius: 50%;
+  padding-top: 16px;
+  padding-left: 23px;
   background: #fff8d7;
   box-shadow: 0 0 70px 70px rgba(255,248,216, 0.2);
+}
+
+.moon a{
+    font-family: "Poppins", sans-serif;
+    color: #392e34;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 23px;
+}
+.moon a:hover{
+    color: rgb(236, 110, 110);
 }
 
 .cloud-container {
@@ -327,6 +340,7 @@ body {
   height: 20px;
   width: 100%;
 /*   background: white; */
+
   border-bottom: 3px solid #392e34;
   margin-bottom: 40px;
 }
@@ -378,7 +392,7 @@ body {
 }
 #info{
     margin-left: 650px;
-    padding-top: 100px;
+    padding-top: 30px;
     font-family: "Poppins", sans-serif;
     color: #71656a;
     font-size: 40px;
@@ -389,4 +403,50 @@ body {
     font-family: "Poppins", sans-serif;
     color: #71656a;
     font-size: 20px;
+}
+
+ .passenger-ticket {
+     margin-left: 650px;
+	 width: 370px;
+	 padding: 0.9em;
+     text-align: center;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+	 background: #e6c7d4;
+	 position: relative;
+	 border-bottom: 3px dashed #5c5454;
+}
+.passenger-ticket:hover{
+    width: 390px;
+    height: 70px;
+    padding:1.2em;
+}
+.passenger-ticket:hover a { color: rgb(236, 110, 110); }
+.passenger-ticket a{
+    font-family: "Poppins", sans-serif;
+    color: #392e34;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+ .passenger-ticket__bottom {
+	 position: absolute;
+	 width: 100%;
+	 bottom: 6px;
+	 left: 0;
+}
+ .passenger-ticket__bottom .circle {
+	 width: 14px;
+	 height: 14px;
+	 border-radius: 50%;
+	 position: absolute;
+	 background: #43383e;
+	 z-index: 2;
+}
+ .passenger-ticket__bottom .circle-left {
+	 left: -7px;
+}
+ .passenger-ticket__bottom .circle-right {
+	 right: -7px;
 }
