@@ -43,14 +43,14 @@ body {
   box-shadow: 0 0 70px 70px rgba(255,248,216, 0.2);
 }
 
-.moon a{
+.moon h1{
     font-family: "Poppins", sans-serif;
     color: #392e34;
     text-decoration: none;
     font-weight: 1000;
     font-size: 23px;
 }
-.moon a:hover{
+.moon h1:hover{
     color: rgb(236, 110, 110);
 }
 
@@ -422,8 +422,8 @@ body {
     height: 70px;
     padding:1.2em;
 }
-.passenger-ticket:hover a { color: rgb(236, 110, 110); }
-.passenger-ticket a{
+.passenger-ticket:hover h1 { color: rgb(236, 110, 110); }
+.passenger-ticket h1{
     font-family: "Poppins", sans-serif;
     color: #392e34;
     text-decoration: none;
