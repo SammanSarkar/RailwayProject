@@ -233,6 +233,7 @@ body {
   border-radius: 11px;
   padding-top: 18px; 
   padding-left: 18px;
+  box-shadow: -4px 25px 60px 0px #ef8899;
 }
 
 .head-car,
@@ -395,9 +396,12 @@ body {
     margin-left: 650px;
     padding-top: 30px;
     font-family: "Poppins", sans-serif;
-    color: #71656a;
+    color: #675e62;
     font-size: 40px;
+    text-shadow: 2px 2px #2b2628;
+    
 }
+
 #info2{
     margin-left: 650px;
     /* padding-top: 100px; */
@@ -411,11 +415,14 @@ body {
 	 width: 370px;
 	 padding: 0.9em;
      text-align: center;
-	 border-top-left-radius: 5px;
-	 border-top-right-radius: 5px;
+	 border-top-left-radius: 8px;
+	 border-top-right-radius: 8px;
 	 background: #e6c7d4;
 	 position: relative;
 	 border-bottom: 3px dashed #43383e;
+   border-bottom-right-radius: 30px;
+   border-bottom-left-radius: 8px;
+   box-shadow: -4px 25px 150px 0px #ef8899;
 }
 .passenger-ticket:hover{
     width: 390px;
@@ -431,23 +438,3 @@ body {
     font-size: 20px;
 }
 
- .passenger-ticket__bottom {
-	 position: absolute;
-	 width: 100%;
-	 bottom: 6px;
-	 left: 0;
-}
- .passenger-ticket__bottom .circle {
-	 width: 14px;
-	 height: 14px;
-	 border-radius: 50%;
-	 position: absolute;
-	 background: #43383e;
-	 z-index: 2;
-}
- .passenger-ticket__bottom .circle-left {
-	 left: -7px;
-}
- .passenger-ticket__bottom .circle-right {
-	 right: -7px;
-}
